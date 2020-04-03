@@ -1,0 +1,25 @@
+.content{
+  .left,.center,.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content:stretch;
+    align-items:center;
+  }
+  
+  .box3{
+    width: 31%;
+    background: url(../assets/box3.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  .box2{
+    width:48%;
+    background: url(../assets/box2.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  .box{
+    width:98%;
+    background: url(../assets/box.png) no-repeat;
+    background-size: 100% 100%;
+  }
+}

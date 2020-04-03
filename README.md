@@ -1,6 +1,6 @@
 # bigscreen
 
-> A Vue.js project
+> 淮安项目
 
 ## Build Setup
 

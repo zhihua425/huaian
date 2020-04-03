@@ -28,7 +28,7 @@ export default {
     right
   },
   mounted() {
-    this.getMaps();
+    // this.getMaps();
   },
   methods: {
     //3D地图

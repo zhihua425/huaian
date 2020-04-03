@@ -5,21 +5,45 @@
     justify-content:space-around;
     align-content:stretch;
     align-items:center;
+    .title{
+      font-size: 1.4rem;
+      color:#fff;
+      text-align: left;padding-left: 1rem;
+      border-bottom:"10px solid #7BAEFF"
+    }
+    .title:after{
+      content:'';
+    }
+    .width33{
+      width:33%;
+    }
+    .width50{
+      width: 50%;
+    }
+    .width25{
+      width: 25%;
+    }
   }
   
   .box3{
     width: 31%;
     background: url(../assets/box3.png) no-repeat;
     background-size: 100% 100%;
+    display: flex;
   }
   .box2{
     width:48%;
     background: url(../assets/box2.png) no-repeat;
     background-size: 100% 100%;
+    
+    .con{
+      display: flex;
+    }
   }
   .box{
     width:98%;
     background: url(../assets/box.png) no-repeat;
     background-size: 100% 100%;
+    display: flex;
   }
 }
